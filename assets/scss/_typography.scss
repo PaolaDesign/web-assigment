@@ -1,0 +1,106 @@
+@use "./variables" as v;
+
+header .header-title .title .trapezoid .text {
+  color: v.$color-blue;
+  font: {
+    size: 1.2em;
+    weight: 600;
+  }
+
+  text: {
+    align: center;
+    transform: capitalize;
+  }
+}
+
+header nav .navigation a {
+  color: v.$color-blue;
+  text: {
+    decoration: none;
+    transform: capitalize;
+  }
+  font: {
+    size: 1.1em;
+    weight: 600;
+  }
+
+  .flex-horizontal-text p {
+    font:{
+      size:2em;
+    }
+  }
+
+
+}
+.li {
+  list-style: none;
+  margin-bottom: 1em;
+  padding: {
+    left: 10em;
+    right:10em;
+  }
+  }
+  @media (max-width:750px){
+    .li {
+      padding-left: 5em;
+      padding-right: 5em;
+  }
+  }
+  @media (max-width:450px){
+    .li {
+      padding-left: 2em;
+      padding-right: 2em;
+  }
+  }
+
+
+h2 {
+  font:{
+    size: 1.2em;
+    weight: 600;
+
+  }
+  margin-bottom: 1.2em;
+}
+
+h3 {
+  font: {
+    size: 1em;
+    weight: 600;
+  }
+  margin-bottom: 1em;
+}
+
+p {
+  font: {
+    weight: 300;
+    size: 1em;
+  }
+  margin-bottom: 1em;
+  
+}
+
+
+p, h1,h2,h3,li{
+  color: v.$color-blue;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+h1 {
+  font: {
+    size: 1.5;
+    weight: 700;
+
+}
+margin-bottom: 1.5em;
+}
+
+p.quote {
+  font:{
+    size:1.5em;
+    weight:400;
+  }
+}
