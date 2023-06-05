@@ -226,6 +226,29 @@ section {
   max-height: 100px;
 }
 
+input[type=text] {
+  padding: 1em;
+  margin-right: 1em;
+}
+
+button {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 10px 20px;
+  background-color: rgb(175, 189, 34);
+  color: rgb(0, 59, 92);
+  border: none;
+  cursor: pointer;
+}
+
+.form {
+  margin-top: 4em;
+  padding: 2em;
+  align-items: center;
+  border-radius: 5%;
+  min-height: 260px;
+}
+
 header .header-title .title .trapezoid .text {
   color: rgb(0, 59, 92);
   font-size: 1.2em;
