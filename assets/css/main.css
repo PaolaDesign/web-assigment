@@ -9,6 +9,7 @@
 
 html, body {
   height: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -172,6 +173,7 @@ section {
   align-items: center;
   background-color: rgba(62, 177, 200, 0.1);
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .image-flex-vertical {
@@ -247,6 +249,42 @@ button {
   align-items: center;
   border-radius: 5%;
   min-height: 260px;
+}
+
+footer {
+  background-color: rgba(0, 59, 92, 0.1);
+}
+
+.social-media {
+  display: flex;
+  gap: 2em;
+}
+
+.footer {
+  height: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 1200px;
+  gap: 2em;
+  padding: 20px;
+}
+
+@media (max-width: 564px) {
+  .footer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+.fa-brands {
+  color: rgb(0, 59, 92);
+}
+
+.icon-heading::before {
+  content: "\f56b";
+  font-family: "Font Awesome 6 Free";
+  margin-right: 1em;
 }
 
 header .header-title .title .trapezoid .text {
